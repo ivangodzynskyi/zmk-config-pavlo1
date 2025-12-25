@@ -27,16 +27,7 @@
 &kp ESC         &kp LEFT_SHIFT                          &kp W                                         &kp UP                 &bt BT_SEL 1    &bt BT_SEL 0    &bootloader
 &kp LCTRL       &kp TAB         &kp LGUI      &kp A     &kp S         &kp D                &kp LEFT                &kp K     &kp NUMBER_4    &kp NUMBER_5    &kp NUMBER_6
                 &kp LEFT_ALT                            &kp C                                         &kp DOWN               &kp NUMBER_1    &kp NUMBER_2    &kp NUMBER_3
-&kp SPACE       &mo 1                                   &kp LEFT_ALT  &kp SPACE            &kp SPACE  &bootloader  &mo 1     &kp N0          &kp DOT         &kp ENTER
-            >;
-        };
-
-        LWR {
-            bindings = <
-&trans       &trans                            &trans                                      &kp UP                 &bt BT_SEL 1    &bt BT_SEL 0    &bootloader
-&trans       &trans      &trans      &trans    &trans        &trans             &kp LEFT                &kp K     &kp NUMBER_4    &kp NUMBER_5    &kp NUMBER_6
-             &trans                            &trans                                      &kp DOWN               &kp NUMBER_1    &kp NUMBER_2    &kp NUMBER_3
-&trans       &mo 1                             &trans        &trans             &kp SPACE  &mo 2        &mo 1     &kp N0          &kp DOT         &kp ENTER
+&kp SPACE       &kp J                                   &kp LEFT_ALT  &kp SPACE            &kp SPACE  &bootloader  &kp N     &kp N0          &kp DOT         &kp ENTER
             >;
         };
     };
