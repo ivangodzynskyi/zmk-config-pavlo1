@@ -20,6 +20,6 @@
 ---
 include:
   - board: nice_nano_v2
-    shield: pavlo_left
+    shield: pavlokbd_left
   - board: nice_nano_v2
-    shield: pavlo_right
+    shield: pavlokbd_right
