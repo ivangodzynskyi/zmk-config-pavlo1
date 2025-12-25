@@ -1,0 +1,15 @@
+if SHIELD_PAVLO_LEFT
+
+config ZMK_KEYBOARD_NAME
+    default "pavlo"
+
+config ZMK_SPLIT_ROLE_CENTRAL
+    default y
+
+endif
+
+if SHIELD_PAVLO_LEFT || SHIELD_PAVLO_RIGHT
+
+config ZMK_SPLIT
+    default y
+endif
