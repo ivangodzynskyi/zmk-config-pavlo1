@@ -25,7 +25,7 @@
         DEF {
             bindings = <
 &kp ESC         &kp LEFT_SHIFT                          &kp W                                         &kp UP                 &bt BT_SEL 1    &bt BT_SEL 0    &bootloader
-&kp LCTRL       &kp TAB         &kp LGUI      &kp A     &kp S         &kp D                &kp LEFT                &kp K     &kp NUMBER_4    &kp NUMBER_5    &kp NUMBER_6
+&kp LCTRL       &kp TAB         &kp LGUI   &bootloader  &kp S         &kp D                &kp LEFT                &kp K     &kp NUMBER_4    &kp NUMBER_5    &kp NUMBER_6
                 &kp LEFT_ALT                            &kp C                                         &kp DOWN               &kp NUMBER_1    &kp NUMBER_2    &kp NUMBER_3
 &kp SPACE       &kp J                                   &kp LEFT_ALT  &kp SPACE            &kp SPACE  &bootloader  &kp N     &kp N0          &kp DOT         &kp ENTER
             >;
