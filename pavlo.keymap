@@ -57,16 +57,12 @@
             key-positions = <4 5>;
         };
 
-        Enter {
-            bindings = <&kp ENTER>;
-            key-positions = <38 39>;
-        };
     };
 
     keymap {
         compatible = "zmk,keymap";
 
-        default_layer {
+        DEF {
             // -----------------------------------------------------------------------------------------
             // |  TAB |  Q  |  W  |  E  |  R  |  T  |   |  Y  |  U   |  I  |  O  |  P  | BSPC |
             // | SHFT |  A  |  S  |  D  |  F  |  G  |   |  H  |  J   |  K  |  L  |  ;  | ENTR |
@@ -77,11 +73,11 @@
 &kp TAB         &kp Q  &kp W  &kp E     &kp R         &kp T        &kp Y      &kp U  &kp I          &bt BT_SEL 1      &bt BT_SEL 0    &bootloader
 &kp LEFT_SHIFT  &kp A  &kp S  &kp D     &kp F         &kp G        &kp H      &kp J  &kp K          &kp L                  &kp SEMI       &kp ENTER
 &kp LCTRL       &kp Z  &kp X  &kp C     &kp V         &kp B        &kp N      &kp M  &mt COMMA DOT  &mt SQT DOUBLE_QUOTES  &mt STAR FSLH  &kp ESC
-    &kp Z     &kp X     &kp C          &kp LGUI  &kp LEFT_ALT  &kp SPACE    &kp SPACE  &mo 2  &mo 1  &kp Z     &kp X     &kp C
+&kp Z     &kp X     &kp C          &kp LGUI  &kp LEFT_ALT  &kp SPACE    &kp SPACE  &mo 2  &mo 1  &kp Z     &kp X     &kp C
             >;
         };
 
-        lower_layer {
+        LWR {
             // -----------------------------------------------------------------------------------------
             // | SYSR |     |     |     |     |     |   |     |  1  |  2  |  3  |  0  |      |
             // |      |     |     | UP  |     |     |   |     |  4  |  5  |  6  |     |      |
@@ -96,7 +92,7 @@
             >;
         };
 
-        raise_layer {
+        RSE {
             // -----------------------------------------------------------------------------------------
             // |  TAB |  !  |  @  |  #  |  &  |  %  |   |  ^  |  $  |  *  |  (  |  )  | BSPC |
             // | CTRL |MUTE |V_UP |V_DWN|  <  |  >  |   |  -  |  =  |  [  |  ]  |  \  |  `   |
