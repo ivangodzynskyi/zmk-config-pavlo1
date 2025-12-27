@@ -31,7 +31,16 @@
 &kp ESC    &kp LEFT_SHIFT                         &kp W                                 &kp UP                  &bt BT_SEL 1  &bt BT_SEL 0  &kp NUMBER_9
 &kp LCTRL  &kp TAB         &kp LGUI  &bootloader  &kp S         &kp D        &kp LEFT                &kp RIGHT  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6
            &kp LEFT_ALT                           &kp C                                 &kp DOWN                &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3
-&kp SPACE  &kp J                                  &kp LEFT_ALT  &kp SPACE    &kp SPACE  &bootloader  &kp N      &kp N0        &kp DOT       &kp ENTER
+&kp SPACE  &lt 1 TAB                              &kp LEFT_ALT  &kp SPACE    &kp SPACE  &bootloader  &kp N      &kp N0        &kp DOT       &kp ENTER
+            >;
+        };
+
+        BT {
+            bindings = <
+&bt BT_CLR_ALL  &bt BT_SEL 1                               &bt BT_DISC 1                           &trans          &trans  &trans  &trans
+&bt BT_SEL 0    &trans        &bt BT_SEL 2  &bt BT_DISC 0  &trans         &bt BT_DISC 2    &trans          &trans  &trans  &trans  &trans
+                &bt BT_SEL 3                               &bt BT_DISC 3                           &trans          &trans  &trans  &trans
+&trans          &trans                                     &trans         &trans           &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
     };
